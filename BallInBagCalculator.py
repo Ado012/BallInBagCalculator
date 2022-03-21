@@ -14,7 +14,7 @@ def countX(lst, x):
 
 # balls in bag sequence
  
-input_string = input("Enter the balls in bag and their values ie 1 4 2: ")
+input_string = input("Welcome to Ball In Bag Calculator. For all your ball in bag drawing needs. Please Enter the balls in bag and their values ie 1 4 2: ")
 ballSequenceString  = input_string.split()
 
 ballSequence = [int(item) for item in ballSequenceString]
